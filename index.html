@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riya Parekh | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Inter', sans-serif; color: #1e293b; background: #ffffff; line-height: 1.6;}
+    header {display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; border-bottom: 1px solid #e2e8f0;}
+    header h1 {font-size: 1.5rem; font-weight: 600;}
+    nav a {margin-left: 2rem; text-decoration: none; color: #64748b; font-size: 0.9rem;}
+    nav a:hover {color: #1e293b;}
+    .section {max-width: 1100px; margin: 0 auto; padding: 5rem 1rem;}
+    .hero {text-align: center;}
+    .hero h2 {font-size: 2.5rem; font-weight: 700;}
+    .hero p {margin-top: 1.5rem; max-width: 700px; margin-inline: auto; color: #475569;}
+    .btn {display: inline-block; margin-top: 2rem; margin-right: 1rem; padding: 0.8rem 1.5rem; border-radius: 0.75rem; font-size: 0.9rem; text-decoration: none;}
+    .btn-primary {background: #0f172a; color: #fff;}
+    .btn-outline {border: 1px solid #cbd5e1; color: #1e293b;}
+    h3 {font-size: 1.8rem; font-weight: 600; margin-bottom: 2rem; text-align: center;}
+    .grid {display: grid; gap: 2rem;}
+    .about-grid {grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); align-items: center;}
+    .card {border: 1px solid #e2e8f0; border-radius: 1rem; padding: 2rem; background: #fff;}
+    .skills-grid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); text-align: center;}
+    .skills-grid div {border: 1px solid #e2e8f0; padding: 1rem; border-radius: 0.75rem; font-size: 0.9rem;}
+    footer {text-align: center; padding: 3rem 1rem; font-size: 0.85rem; color: #94a3b8; border-top: 1px solid #e2e8f0;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Riya Parekh</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section hero">
+    <h2>UI/UX Designer & Developer</h2>
+    <p>I design thoughtful, user centered interfaces that combine aesthetics with functionality. My background in Computer Science and Psychology helps me merge design thinking with technical problem solving.</p>
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+  </section>
+
+  <section id="about" class="section grid about-grid">
+  <div style="grid-column: 1 / -1;">
+    <h3>About Me</h3>
+    <p>
+      I am a recent Computer Science and Psychology graduate from the University of Victoria with a strong interest in UI/UX design. 
+      My work focuses on creating clear, intuitive, and user centered digital experiences. 
+      I have hands on experience designing high fidelity mobile prototypes in Figma, conducting user testing, and translating research insights into practical interface improvements. 
+      I enjoy building clean, functional interfaces and approaching design with both creativity and analytical thinking.
+    </p>
+  </div>
+</section>
+
+  <section id="projects" class="section">
+  <h3>Selected Projects</h3>
+  <div class="grid" style="grid-template-columns: repeat(auto-fit,minmax(300px,1fr));">
+
+    <div class="card">
+      <h4>Mobile Prototype — HCI (Task Management App with NPC & Gamification)</h4>
+      <p style="margin-top:1rem; color:#475569;">
+        A gamified task management app where users complete tasks with help from an NPC mentor. Includes quests,
+        rewards, and a leveling system to boost motivation and make productivity enjoyable.
+      </p>
+      <a href="https://www.figma.com/proto/ZZcOIVDZNUVq6jJrIDvAqt/Assignment-5---CSC412?node-id=163-665&starting-point-node-id=48%3A183&t=h3peglPeXCZC8Wsy-1"
+         target="_blank"
+         style="display:block; margin-top:1rem; font-size:0.9rem; color:#0f172a;">
+        View Prototype
+      </a>
+    </div>
+
+    <div class="card">
+      <h4>Storyboard — University Course Scheduling App</h4>
+      <p style="margin-top:1rem; color:#475569;">
+        The storyboard shows a student searching and adding university courses while avoiding timing conflicts.
+        It focuses on solving pain points in course selection and building an error free timetable.
+      </p>
+      <a href="https://www.figma.com/design/p0CGE6aLpWqSJKnaN3Iv7i/P3-Storyboard?node-id=3-901&t=Oi7vNcLvuv2pjwdq-1"
+         target="_blank"
+         style="display:block; margin-top:1rem; font-size:0.9rem; color:#0f172a;">
+        View Storyboard
+      </a>
+    </div>
+
+    <div class="card">
+      <h4>MindMate — Mental Wellness App</h4>
+      <p style="margin-top:1rem; color:#475569;">
+        MindMate is a calm and supportive mental wellness app with journaling, mood tracking, and guided reflection.
+        Designed to help users manage emotions and stress through simple, routine check-ins.
+      </p>
+      <a href="https://www.figma.com/proto/w23dhYrqbd7RP7x57ZQugX/MindMate?node-id=1-2&starting-point-node-id=1%3A2&t=pg73DCKGve2a7Oro-1"
+         target="_blank"
+         style="display:block; margin-top:1rem; font-size:0.9rem; color:#0f172a;">
+        View Prototype
+      </a>
+    </div>
+
+    <div class="card">
+      <h4>Unity 3D Research Game</h4>
+      <p style="margin-top:1rem; color:#475569;">
+        Built a Unity game for a perception and motion sickness research study, with experiment control systems
+        and fNIRS integration for physiological data collection.
+      </p>
+      <p style="margin-top:1rem; font-size:0.8rem; color:#94a3b8;">Technologies: Unity, C#</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section id="skills" class="section">
+    <h3>Design & Technical Skills</h3>
+<div class="grid skills-grid">
+  <div>Figma</div>
+  <div>Adobe InDesign</div>
+  <div>Canva</div>
+  <div>HTML / CSS / JavaScript</div>
+  <div>Unity (C#)</div>
+  <div>C</div>
+  <div>Git & GitHub</div>
+  <div>Python (NumPy / SciPy / Seaborn)</div>
+  <div>R</div>
+  <div>Java</div>
+  <div>Microsoft Office Suite</div>
+</div>
+  </section>
+
+  <section id="contact" class="section" style="text-align:center;">
+    <h3>Get in Touch</h3>
+    <p style="margin-top:1rem; color:#475569;">If you'd like to work together or have any questions, feel free to reach out, I'm open to internships and collaborations.</p>
+    <a href="mailto:riyaparekh3003@gmail.com" class="btn btn-primary">riyaparekh3003@gmail.com</a>
+  </section>
+
+  <footer>© 2025 Riya Parekh</footer>
+</body>
+</html>
